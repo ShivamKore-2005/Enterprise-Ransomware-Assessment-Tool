@@ -1,0 +1,38 @@
+# requirements.txt
+# ─────────────────────────────────────────────────────────────────────────────
+#  Enterprise Ransomware Assessment Tool
+#  Author  : Shivam Kore
+#  Version : 1.0.0
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  This project uses ONLY the Python Standard Library.
+#  NO external packages are required.
+#  Minimum Python version: Python 3.8+
+#
+# ─────────────────────────────────────────────────────────────────────────────
+#  Standard Library Modules Used
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  os          - File path operations, directory creation, screen clear
+#  sys         - CLI exit, stdout/stdin reconfiguration for UTF-8
+#  json        - Reading/writing risk_register.json and threats.json
+#  csv         - Exporting risk register to CSV format
+#  uuid        - Generating unique 8-character risk IDs
+#  datetime    - Timestamps for risk entries and report filenames
+#  dataclasses - RiskEntry and RansomwareThreat class definitions
+#  typing      - Type hints (List, Optional)
+#
+# ─────────────────────────────────────────────────────────────────────────────
+#  How to Run
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  Step 1: Make sure Python 3.8 or higher is installed
+#          Check with:  python --version
+#
+#  Step 2: Run the tool
+#          python main.py
+#
+#  Step 3: On first launch, 10 demo risks are auto-loaded.
+#          Use the menu to explore all features.
+#
+# ─────────────────────────────────────────────────────────────────────────────
